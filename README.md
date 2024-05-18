@@ -3,34 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Icons at Bottom Center</title>
+    <title>موقع بأيقونة يوتيوب</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         body {
             display: flex;
             justify-content: center;
-            align-items: flex-end;
+            align-items: center;
             height: 100vh;
-            margin: 0;
+            background-color: #f9f9f9;
         }
-        .icon-container {
-            display: flex;
-            gap: 10px;
-            padding-bottom: 20px;
-        }
-        .icon-container img {
-            width: 50px;
-            height: 30px;
+        .icon {
+            font-size: 100px;
+            color: #FF0000; /* لون أيقونة يوتيوب */
         }
     </style>
 </head>
 <body>
-    <div class="icon-container">
-        <a href="https://discord.com/invite/hAyveBFb">
-            <img src="discord.jpeg" alt="Discord">
-        </a>
-        <a href="https://youtube.com/@ayoub_kobra_ff?si=nQyarPNhHvr3rWIK">
-            <img src="imagesYoutube.jpeg" alt="YouTube">
-        </a>
-    </div>
+    <i class="fab fa-youtube icon"></i>
 </body>
 </html>
