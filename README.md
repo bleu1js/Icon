@@ -3,23 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>موقع بأيقونة يوتيوب</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: #f9f9f9;
-        }
-        .icon {
-            font-size: 100px;
-            color: #FF0000; /* لون أيقونة يوتيوب */
-        }
-    </style>
+    <title>موقعي بأيقونة يوتيوب</title>
+    <link rel="icon" href="path/to/your/favicon.ico" type="image/x-icon">
+    <!-- إذا كانت الأيقونة بصيغة .png -->
+    <!-- <link rel="icon" href="path/to/your/favicon.png" type="image/png"> -->
 </head>
 <body>
-    <i class="fab fa-youtube icon"></i>
+    <h1>مرحبًا بك في موقعي</h1>
+    <!-- محتوى الموقع هنا -->
 </body>
 </html>
